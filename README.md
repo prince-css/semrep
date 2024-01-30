@@ -32,10 +32,10 @@ To reproduse the results at first all the necessarry packages are needed to be i
 the "semrepenv.yml" YAML file encapsulates the conda environment I used.
 
 run 
->> conda env create -f semrepenv.yml
->> conda activate semrepenv
-or,
->> pip install -r requirements.txt
+>> conda env create -f semrepenv.yml  
+>> conda activate semrepenv  
+or,  
+>> pip install -r requirements.txt  
 
 to install the environment before running any scripts or notebook.
 Or, you can manually install the packages from the "requirements.txt" file
