@@ -44,41 +44,41 @@ Or, you can manually install the packages from the "requirements.txt" file
 ----------------------------------
 PROJECT STRUCTURE AND DESCRIPTIONS
 ----------------------------------
-/semrep
-├── /data
-│   ├── substance_interactions.csv
-│   └── substance_interactions_cleaned.csv
-├── /logs
-│   ├── bert_logfile.log
-│   ├── biobert_logfile.log
-│   └── ...
-├── /models
-│   ├── semrep_simple_bert_model
-│   ├── semrep_simple_biobert_model
-│   └── ...
-├── /plots
-│   ├── bert_cat_arg_dis_impact_all.png
-│   ├── bert_cat_arg_dis_impact_verbal.png
-│   ├── bert_cum_arg_dis_impact_all.png
-│   ├── bert_cum_arg_dis_impact_verbal.png
-│   ├── bert_precision_recall_curve_all.png
-│   ├── bert_precision_recall_curve_verbal.png
-│   ├── bert_roc_curve.png
-│   ├── bert_sub_obj_heatmap_all.png
-│   ├── bert_sub_obj_heatmap_verbal.png
-│   └── ...
-├── /results
-│   ├── bert_test_set_0_results.csv
-│   ├── val_bert_results.csv
-│   ├── test_bert_results.csv
-│   └── ...
-├── /src
-│   ├── semrep_model.ipynb
-│   └── utils.py
-├── README.txt
-├── requirements.txt
-└── semrepenv.yml
-
+/semrep  
+├── /data  
+│   ├── substance_interactions.csv  
+│   └── substance_interactions_cleaned.csv  
+├── /logs  
+│   ├── bert_logfile.log  
+│   ├── biobert_logfile.log  
+│   └── ...  
+├── /models  
+│   ├── semrep_simple_bert_model  
+│   ├── semrep_simple_biobert_model  
+│   └── ...  
+├── /plots  
+│   ├── bert_cat_arg_dis_impact_all.png  
+│   ├── bert_cat_arg_dis_impact_verbal.png  
+│   ├── bert_cum_arg_dis_impact_all.png  
+│   ├── bert_cum_arg_dis_impact_verbal.png  
+│   ├── bert_precision_recall_curve_all.png  
+│   ├── bert_precision_recall_curve_verbal.png  
+│   ├── bert_roc_curve.png  
+│   ├── bert_sub_obj_heatmap_all.png   
+│   ├── bert_sub_obj_heatmap_verbal.png  
+│   └── ...  
+├── /results  
+│   ├── bert_test_set_0_results.csv  
+│   ├── val_bert_results.csv  
+│   ├── test_bert_results.csv  
+│   └── ...  
+├── /src  
+│   ├── semrep_model.ipynb  
+│   └── utils.py  
+├── README.txt  
+├── requirements.txt  
+└── semrepenv.yml  
+  
 
 Below is an overview of the key files and folders in this project:
 
